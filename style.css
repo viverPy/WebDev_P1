@@ -1,0 +1,264 @@
+
+body{
+    background-color: #e8e4c9;
+}
+
+
+.footer {
+    margin-top: 3%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align:center;
+}
+
+/*-----------------------------Grid Section-----------------------------*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10px;
+  }
+
+.grid-item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.grid-item-img {
+    text-align: right;
+    margin-top: 100px;
+    white-space: nowrap;
+}
+
+.grid-item-text {
+    margin-top: 100px;
+    margin-right: 40%;
+    margin-left: 5%;
+    text-align: justify;
+
+}
+
+/*-----------------------------Flex Box Section-----------------------------*/
+.fb-container{
+    display: flex;
+    margin-top:5%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fb-items{
+    padding: 10px;
+    font-size:28px;
+    font-weight: bold;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    border-radius: 40px;
+}
+
+.fb-arrow{
+    padding: 10px;
+    font-size:28px;
+    font-weight: bold;
+}
+
+/*-----------------------------Text Section-----------------------------*/
+.title-text{
+    display: inline-block;
+    font-size: 80px;
+    font-family: "Arial";
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.info-text{
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.prev-text{
+    margin-right: 10%;
+    font-size:20px;
+}
+
+.menu-text{
+    font-size:20px;
+}
+
+.next-text{
+    margin-left: 10%;
+    font-size:20px;
+}
+
+/*-----------------------------Image Section-----------------------------*/
+
+.img-1521{
+    margin-top:3.5%;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    transition: .5s ease;
+    
+}
+
+.img-1764{
+    margin-top:3.5%;
+    width: 70%;
+    height: auto;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.img-1873{
+    margin-top:3.5%;
+    width: 70%;
+    height: auto;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.img-1969{
+    margin-top:3.5%;
+    width: 50%;
+    height: auto;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.img-1975{
+    margin-top:3.5%;
+    width: 50%;
+    height: auto;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.img-1986{
+    margin-top:3.5%;
+    width: 40%;
+    height: auto;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.img-2009{
+    margin-top:3.5%;
+    width: 50%;
+    height: auto;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.img-1521:hover{
+    opacity: 0.3;
+}
+
+.img-1764:hover{
+    opacity: 0.3;
+}
+
+.img-1873:hover{
+    opacity: 0.3;
+}
+
+.img-1969:hover{
+    opacity: 0.3;
+}
+
+.img-1975:hover{
+    opacity: 0.3;
+}
+
+.img-1986:hover{
+    opacity: 0.3;
+}
+
+.img-2009:hover{
+    opacity: 0.3;
+}
+
+/*-----------------------------Video Section-----------------------------*/
+
+.vid-arnis{
+    margin-top:15%;
+    margin-bottom:5%;
+    height: 534px;
+    width: 949px;
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    
+}
+
+/*-----------------------------Table Section-----------------------------*/
+.main-table{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+
+.main-table td{
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    transition: transform .1s;
+    border-radius: 10px;
+    background-color: rgba(219, 87, 87, 0.8);
+}
+
+.main-table td:hover{
+    background-color: rgba(219, 87, 87, 0.8);;
+    cursor:pointer;
+    transform: scale(1.5);
+    transition: transform .2s;
+    
+}
+
+/*-----------------------------Transition Section-----------------------------*/
+.fade-item {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
