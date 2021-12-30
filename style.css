@@ -52,12 +52,32 @@ body{
     font-weight: bold;
     border: 3px solid rgba(0, 0, 0, 0.8);
     border-radius: 40px;
+    text-align: center;
+}
+
+.fb-items:hover{
+    background-color: rgba(219, 87, 87, 0.8);
+    cursor: pointer;
+}
+
+.fb-dates{
+    font-size:20px;
 }
 
 .fb-arrow{
     padding: 10px;
     font-size:28px;
     font-weight: bold;
+}
+
+.fb-highlighted{
+    padding: 10px;
+    font-size:28px;
+    font-weight: bold;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    border-radius: 40px;
+    background-color: rgba(219, 87, 87, 0.8);
+    text-align: center;
 }
 
 /*-----------------------------Text Section-----------------------------*/
